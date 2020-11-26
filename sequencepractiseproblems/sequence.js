@@ -13,8 +13,10 @@ console.log("Dice Number: "+dice2);
 console.log("sum of two dice are ",(dice1+dice2));
 
 //sum of two digit values
-let firstValue=Math.floor(Math.random()*20);
-let secondValue=Math.floor(Math.random()*20);
+let firstValue=Math.floor(Math.random()*100);
+let secondValue=Math.floor(Math.random()*100);
+console.log(firstValue);
+console.log(secondValue);
 console.log("Sum of two values are : ",firstValue+secondValue);
 
 //Unit Conversion
