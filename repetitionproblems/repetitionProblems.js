@@ -9,19 +9,19 @@ powerOfTwo.question(' Enter the number to get power of 2 : ',function(power){
         powerOfTwo.question(' Enter the to find prime or not ',function(prime){
             powerOfTwo.question(' Enter the to find factorial of a number ',function(factorial){
                 powerOfTwo.question(' Enter the to find factors of a number ',function(factors){
-
+//power
                 let value=parseInt(power);
                 for(let i=0;i<=value;i++){
                     console.log(Math.pow(2,i));
                 }
-
+//hormonic
                 let value1=parseInt(number);
                 sum=1;
                 for(let i=0;i<=value1;i++){
                     sum+=1/sum++;
                 }
                 console.log('value is : ',sum);
-
+//prime
                 let primeCheck=parseInt(prime);
                 let count =1;
                 let index=0;
@@ -33,7 +33,7 @@ powerOfTwo.question(' Enter the number to get power of 2 : ',function(power){
                 }
                 let result=(index<2)?' a ':' not a';
                 console.log('given number is ',result,'primenumber')
-
+//factorial
                 let fact=parseInt(factorial);
                 let f=fact;
                 factSum=1;
@@ -46,6 +46,7 @@ powerOfTwo.question(' Enter the number to get power of 2 : ',function(power){
                 }
                 console.log(findFactorial());
 
+ //factors
                 let findFactors=parseInt(factors);
                 let z=0;
                 var fac=[];
